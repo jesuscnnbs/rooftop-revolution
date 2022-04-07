@@ -1,12 +1,10 @@
 # hola-luz
 ```
-
-This project has been completed in the shortest possible time. It has been generated using Vue UI
+This project has been generated using Vue UI
 ```
 # Components
 ```
-
-The Vuetify library has been used for the components.
+The Vuetify library has been used for the styling
 ```
 ## Project setup
 ```

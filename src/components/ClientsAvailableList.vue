@@ -10,7 +10,7 @@
       </v-list-item>
     </v-list-item-group>
   </v-list>
-  <p v-else>No clients available</p>
+  <p v-else>No clients availables</p>
 </template>
 
 <script>
@@ -23,14 +23,14 @@ export default {
   }),
   watch: {
     cupsNumber: function (newCups, oldCups) {
-      this.setNewAvailableClients();
+      this.setNewAvailableClients(newCups);
     },
   },
   methods: {
-    setNewAvailableClients: function () {
+    setNewAvailableClients: function (newCups) {
       const newAvailable = this.clients.filter((person) => {
         const cupsSelected = this.supplyPoints.find(
-          (el) => el.cups === this.cupsNumber
+          (el) => el.cups === newCups
         );
         const p1 = cupsSelected?.neighbors.length
           ? this.supplyPoints.find(

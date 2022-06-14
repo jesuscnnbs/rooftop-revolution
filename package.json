@@ -17,6 +17,7 @@
     "@cypress/webpack-dev-server": "^1.8.4",
     "@vue/cli-plugin-babel": "~4.5.14",
     "@vue/cli-service": "~4.5.14",
+    "@vue/compiler-dom": "^3.2.32",
     "cypress": "^9.5.3",
     "vue-cli-plugin-vuetify": "^2.4.8",
     "vue-template-compiler": "^2.6.11"

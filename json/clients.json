@@ -1,4 +1,5 @@
-[{
+[
+  {
     "full_name": "Terry Evans",
     "address": "Potato street, 4",
     "cups": "123456",
@@ -36,6 +37,20 @@
   {
     "full_name": "Steven Walters",
     "address": "Swede street, 7",
+    "cups": "111222",
+    "role": "customer",
+    "building_type": "house"
+  },
+  {
+    "full_name": "Pepe Llizco",
+    "address": "Swede street, 12",
+    "cups": "111222",
+    "role": "customer",
+    "building_type": "house"
+  },
+  {
+    "full_name": "Juan María Tojo",
+    "address": "Swede street, 17",
     "cups": "111222",
     "role": "customer",
     "building_type": "house"

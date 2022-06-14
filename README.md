@@ -2,10 +2,14 @@
 ```
 This project has been generated using Vue UI
 ```
-# Components
+## Testing with cypress
 ```
+yarn cypress open-ct
+```
+## Components
+
 The Vuetify library has been used for the styling
-```
+
 ## Project setup
 ```
 yarn install
